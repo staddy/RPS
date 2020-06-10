@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://sprites/rock.png" type="Texture" id=1]
+[ext_resource path="res://sprites/scissors.png" type="Texture" id=2]
+[ext_resource path="res://sprites/paper.png" type="Texture" id=3]
+
+[node name="Main" type="Node2D"]
+
+[node name="BRock" type="Button" parent="."]
+margin_left = 108.019
+margin_top = 161.002
+margin_right = 160.019
+margin_bottom = 207.002
+rect_scale = Vector2( 2, 2 )
+icon = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BScissors" type="Button" parent="."]
+margin_left = 451.622
+margin_top = 160.273
+margin_right = 503.622
+margin_bottom = 206.273
+rect_scale = Vector2( 2, 2 )
+icon = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BPaper" type="Button" parent="."]
+margin_left = 287.595
+margin_top = 195.333
+margin_right = 339.595
+margin_bottom = 241.333
+rect_scale = Vector2( 2, 2 )
+icon = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
